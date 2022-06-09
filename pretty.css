@@ -1,3 +1,55 @@
-h1 {
-	color: green;
+#announcements h1 {
+	color: black;
+	font-size: 20px;
+}
+
+#linkLeiste {
+	width: 150px;
+	height: 100%;
+	background-color: darkblue;
+	position: fixed;
+	left: 0;
+	top: 0;
+	}
+ 
+#linkLeiste li {
+	color: white;
+	font-size: 20px;
+		margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+#topBar {
+	margin-left: 150px;
+	
+}
+
+#mainContent {
+	display: grid;
+	grid-template-columns: 80% 20%;
+	border: solid black  5px;
+		margin: 5px 5px 5px 150px;
+	background-color: grey;
+}
+#projects {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 10px;
+
+}
+#projects div {
+	margin: 5px;
+border: solid white 2px;
+	border-left: solid orange 8px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+#announcements {
+	background-color: white;
+	border: solid white 5px;
+	border-radius: 10px;
+	margin-top: 15px;
+	align-content: center;
 }
